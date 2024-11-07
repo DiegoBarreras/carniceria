@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUMEN DE VENTAS 🥩</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenido">
+        <div class="contenedor1">
+            <img src="https://www.productosmeza.com.mx/img/logo-nuevo.png" alt="Carnicerías Productos Meza" id="imgpm">
+            <p class="parrafo">Inserta aquí el archivo .txt con los registros por procesar</p>
+            <input type="file" id="input_reg" accept=".txt"></input>
+            <p class="parrafo">Inserta aquí el archivo .txt con los nombres de los productos</p>
+            <input type="file" id="input_nom" accept=".txt"></input>
+            <div class="contenedor_botones">
+                <button id="boton_mostrar" onclick="validar()">Mostrar resumen</button>
+            </div>
+            <table id="tabla">
+                <thead>
+                    <tr>
+                        <th>Número de cajas</th>
+                        <th>Clave del producto</th>
+                        <th>Descripción del producto</th>
+                        <th>Peso en kilos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <footer>Copyright © 2024 Diego Barreras</footer>
+</body>
+</html>
